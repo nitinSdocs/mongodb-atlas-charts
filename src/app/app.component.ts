@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'movie-dashboard';
+  activeDashboard: 'sdk' | 'iframe' | 'cross-charts' | 'invoice-chart' = 'sdk';
 }
